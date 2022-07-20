@@ -1,0 +1,72 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.align {
+    align-items: center;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.background-green {
+    background-color: #2E948A;
+}
+
+.letter-green {
+    color: #009688;
+}
+.letter-pink {
+   color:  #FF4081
+}
+.backgroud-gray {
+   background-color:  #E5E5E5;
+}
+
+header {
+    padding: 20px 100px;
+}
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#banner1 {
+    padding: 60px 100px;
+}
+
+#banner1 h1 {
+    font-size: 70px;
+    margin: 20px 0;
+}
+#banner1 article {
+    width: 450px;
+}
+
+#banner1 a {
+text-decoration: none;
+color: #FF4081;
+border: 1px solid #FF4081;
+border-radius: 62px;
+padding: 5px 15px;
+font-size: 20px;
+}
+#banner1 p {
+font-size: 25px;
+}
