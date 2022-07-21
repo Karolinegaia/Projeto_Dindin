@@ -67,6 +67,66 @@ border-radius: 62px;
 padding: 5px 15px;
 font-size: 20px;
 }
+
 #banner1 p {
 font-size: 25px;
+}
+
+#formulario article {
+   flex-direction: column;
+   justify-content: center;    
+}
+
+form, input, textarea {
+    width: 400px;    
+}
+
+input, textarea {
+    margin: 5px 0px;
+
+}
+#formulario {
+    padding: 30px 100px;
+}
+
+button {
+    text-decoration: none;
+    background-color: #FF4081;
+    color: white;
+    padding: 5px 25px;
+    border: #FF4081 1px solid;
+    border-radius: 40px;
+}
+#ilustra-contato {
+    width: 100px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 30px;
+}
+
+footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+footer nav {
+    flex-direction: column;
+}
+
+#button {
+    flex-direction: column;
+}
+
+#button a {
+    border: solid white 1px;
+    border-radius: 60px;
+    padding: 10px 40px;
 }
