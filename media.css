@@ -1,0 +1,78 @@
+@media only screen and (max-width:1650px) {
+    #sobre-nos article{
+        width: 600px;
+        margin: 20px 0px;    
+    }
+    #cursos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1155) {
+    #banner1{
+        text-align: center;
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width: 1054px) {
+    #ultimasessao div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 750px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    header {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    #sobre-nos article{
+        flex-direction: column;
+        text-align: center;
+    }
+    #sobre-nos-text{
+        text-align: center;
+    }
+    #banner1 {
+        text-align: center;           
+    }
+       #banner1 img {
+        width: 350px;
+       }
+       #cursos img {
+        width: 300px;
+       }
+
+       #cursos article {
+        width: 300px;
+       }
+
+       #cursos {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #sobre-nos p {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    header {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px;
+    }
+}
