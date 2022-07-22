@@ -1,0 +1,110 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0%;
+    margin: auto;
+}
+
+main {
+    margin-bottom: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align {
+    align-items: center;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.background-green {
+    background-color: #2E948A;
+}
+
+.letter-green {
+    color: #009688;
+}
+.letter-pink {
+   color:  #FF4081
+}
+.background-gray {
+   background-color:  #E5E5E5;
+   width:auto;
+}
+
+header {
+    padding: 20px 100px;
+}
+
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#blog-banner {
+padding: 60px;
+}
+
+#blog-banner h1 {
+    font-size: 40px;
+}
+
+#blog-banner article {
+    width: 350px;
+}
+
+.retangulo {
+    width: 500px;
+    height: 250px;
+    background-color: #af9e9e;
+ }
+
+ #content-blog {
+    padding: 60px;    
+ }
+
+ #content-blog article {
+    width: 500px;
+    text-align: justify;
+ }
+ 
+footer {
+    padding: 30px;
+}
+
+footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+footer nav {
+    flex-direction: column;
+}
+
+#button {
+    flex-direction: column;
+}
+
+#button a {
+    border: solid white 1px;
+    border-radius: 60px;
+    padding: 10px 40px;
+}

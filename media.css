@@ -98,4 +98,93 @@
     }
 }
 /*verificar media do formulario*/
+/*começa media cursos*/
+@media only screen and (max-width: 1105px) {
+    #banner-cursos section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    }
+    
+    #banner-cursos {
+        text-align: center;
+    }
+
+    #banner-cursos article {
+        text-align: center;
+       justify-content: center;
+
+    }
+
+    #banner-cursos p{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+}
+/*Media da página blog*/
+
+@media only screen and (max-width: 910px) {
+    #blog-banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #content-blog p{
+        width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #content-blog div {
+        width: 250px;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/*Média da página Curso*/
+
+@media only screen and (max-width: 1200px) {
+    #iframe article {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+#investimento-curso {
+    flex-direction: column;
+}
+#investimento-curso article {
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    #iframe iframe {
+        width: 250px;
+        height: 200px;
+    }
+    #iframe div {
+        width: 250px;
+        
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #investimento-curso h1 {
+        font-size: 30px;
+    }
+    #investimento-curso article {
+        width: 250px;
+    }
+    #investimento-curso img {
+        width: 280px;
+    }
+}
 

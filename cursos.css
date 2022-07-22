@@ -1,0 +1,102 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align {
+    align-items: center;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.background-green {
+    background-color: #2E948A;
+}
+
+.letter-green {
+    color: #009688;
+}
+.letter-pink {
+   color:  #FF4081
+}
+.background-gray {
+   background-color:  #E5E5E5;
+}
+
+header {
+    padding: 20px 100px;
+}
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+    background-color: #2E948A;
+    color: white;
+    padding: 3px 30px;
+    border: #2E948A 10px solid;
+    border-radius: 40px;
+}
+
+section{
+    justify-items: center;
+}
+
+#banner-cursos section p {
+    width: 500px;    
+}
+
+article {
+    width: 400px;    
+}
+
+#banner-cursos {
+    padding: 30px;
+    justify-content: center;
+}
+
+footer {
+    padding: 30px;
+}
+
+footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+footer nav {
+    flex-direction: column;
+}
+
+#button {
+    flex-direction: column;
+}
+
+#button a {
+    border: solid white 1px;
+    border-radius: 60px;
+    padding: 10px 40px;
+}
