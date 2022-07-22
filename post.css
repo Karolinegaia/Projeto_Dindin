@@ -1,0 +1,165 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align {
+    align-items: center;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.background-green {
+    background-color: #2E948A;
+}
+
+.letter-green {
+    color: #009688;
+}
+.letter-pink {
+   color:  #FF4081
+}
+.background-gray {
+   background-color:  #E5E5E5;
+}
+
+header {
+    padding: 20px 100px;
+}
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#text-post {
+    padding: 60px;
+}
+
+#text-post h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#data {
+    margin-top: 0px;
+    text-align: center;
+}
+
+#grande-retangulo {
+    width: 1000px;
+    height: 600px;
+    margin: 50px 0px;
+    background-color: #af9e9e;    
+}
+
+#inicio {
+    align-items: center;
+    flex-direction: column;
+}
+#caixa-texto {
+    width: 1000px;
+    padding: 100px;
+    margin-left: 8px;  
+    text-align: justify;  
+}
+
+#banner1 {
+    padding: 60px 100px;
+}
+
+#banner1 h1 {
+    font-size: 70px;
+    margin: 20px 0;
+}
+#banner1 article {
+    width: 450px;
+}
+
+#banner1 a {
+text-decoration: none;
+color: #FF4081;
+border: 1px solid #FF4081;
+border-radius: 62px;
+padding: 5px 15px;
+font-size: 20px;
+}
+#banner1 p {
+font-size: 25px;
+}
+
+#cursos {
+    padding: 60px;
+}
+
+#cursos article {
+    width: 400px;
+    margin: 40px;
+    text-align: center;
+}
+
+#cursos img {
+    width: 400px;
+    height: 400px;
+}
+
+#cursos p {
+margin-bottom: 30px;
+}
+
+#cursos a {
+    text-decoration: none;
+    background-color: #FF4081;
+    color: white;
+    padding: 3px 30px;
+    border: #FF4081 10px solid;
+    border-radius: 40px;
+}
+
+#ultimo-titulo {
+    text-align: center;
+}
+footer {
+    padding: 30px;
+}
+
+footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+footer nav {
+    flex-direction: column;
+}
+
+#button {
+    flex-direction: column;
+}
+
+#button a {
+    border: solid white 1px;
+    border-radius: 60px;
+    padding: 10px 40px;
+}
